@@ -7,8 +7,75 @@ img {
      display: block;
 }
 
-body {
-    color: (rgb(200, 200, 0));
+
+header {
+    background-color: rgb(255, 130, 0);
+    
+    /*Johnsonville Italian Sausage Lasagna*/
+    h1 {
+        font-size: 2.5em;
+        font-family: Sutro, serif;  
+        font-weight: 700;  
+        font-style: normal;
+        padding: 1em 0.75em 0;
+        color: rgb(255, 255, 255);
+    }
+
+    /*a classic family favorite*/
+    h2 {
+        font-size: 2em;
+        padding: 0.5em 1em 1em;
+        color: rgb(255, 220, 190);
+        font-family: 'Times New Roman', Times, serif;
+    }
 }
 
+figcaption {
+    padding: 1em 2em 0em;
+    font-size: 1em;
+    font-family: poppins, sans-serif;  
+    font-weight: 400;  
+    font-style: italic;
+
+}
+
+h3 {
+    color: rgb(255, 130, 0);
+    text-transform: uppercase;
+    padding: 1.5em 1.75em 0em;
+    font-size: 1.25em;
+    font-family: Sutro, serif;  
+    font-weight: 300;  
+    font-style: normal;
+}
+
+li {
+    margin: 1em
+}
+
+ul {
+    font-family: poppins, sans-serif;  
+    font-weight: 400;  
+    font-style: normal;
+    padding: 0em 1.25em 1em;
+    margin: 1em 0em 1em;
+    line-height: 2em;
+}
+
+ol {
+    font-family: poppins, sans-serif;  
+    font-weight: 400;  
+    font-style: normal;
+    padding: 0em 1.25em 1em;
+    
+}
+
+footer {
+    background-color: rgb(255, 130, 0);
+    color: rgb(240, 240, 240);
+    font-family: poppins, sans-serif;  
+    font-weight: 400;  
+    font-style: normal;
+    padding: 1em 1.5em;
+}
 /*By the way, when we use the slash-asterisk combo, it’s a comment on the CSS and it’s meant for human beings. The machine knows it is not supposed to process anything until it finds a asterisk-slash combo that ends the comment on the CSS. */
