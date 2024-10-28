@@ -69,7 +69,7 @@ h3 {
     font-family: Sutro, serif;  
     font-weight: 300;  
     font-style: normal;
-    border-bottom: 3px solid rgb(255, 130, 0);
+    border-top: 3px solid rgb(255, 130, 0);
 }
 
 li {
