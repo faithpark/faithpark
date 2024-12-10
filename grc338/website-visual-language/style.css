@@ -16,14 +16,14 @@ body {
 	font-family: "ff-tisa-sans-web-pro", sans-serif;
 	font-weight: 300;
 	font-style: normal;
-	background-color: rgb(255, 255, 250);
+	background-color: rgb(255, 255, 249);
 }
 
 div.container main{ 
 	position: relative;
 	min-height: 100vh;
 	max-width: 70em;
-	background-color: rgb(255, 255, 255);
+	background-color: rgb(255, 255, 249);
 	margin:auto;
 }
 
@@ -40,7 +40,7 @@ img {
 }
 
 main img {
-	max-width: 700px;
+	max-width: 1000px;
 	height: auto;
 	margin: auto;
 	margin-bottom: 3em;
@@ -50,7 +50,7 @@ header {
 	display: grid;
 	grid-template-columns: 1fr 3fr;
 	grid-row-gap: 1em;
-	background: rgb(255, 255, 255);
+	background: rgb(255, 255, 249);
 	padding: auto 0.5em;
 	max-height: 9em;
 	font-family: "ff-tisa-sans-web-pro", sans-serif;
@@ -229,7 +229,7 @@ article p{
 	}
 	
 	h1 {
-		margin-bottom: 1em;
+		padding: 1em 0.5em 0em 0.5em
 	}
 
 	nav ul li{
