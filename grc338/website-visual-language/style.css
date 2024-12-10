@@ -43,6 +43,7 @@ main img {
 	max-width: 700px;
 	height: auto;
 	margin: auto;
+	margin-bottom: 3em;
 }
 
 header {
@@ -214,7 +215,7 @@ main a {
 article{
 	display: block;
 	max-width: 40em;
-	margin:0em auto 5em;
+	margin:auto;
 }
 
 article p{
